@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+	<PropertyGroup>
+		<GamePath>D:/SteamLibrary/steamapps/common/Stardew Valley</GamePath>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="JetBrains.Annotations" Version="2023.3.0" />
+		<PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.1.1" GamePath="$(GamePath)" />
+		<PackageReference Include="Roslynator.Analyzers" Version="4.11.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Serilog" Version="3.1.1" />
+		<PackageReference Include="SonarAnalyzer.CSharp" Version="9.21.0.86780">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="TwitchLib" Version="3.5.3" />
+		<PackageReference Include="TwitchLib.Api" Version="3.8.0" />
+		<PackageReference Include="TwitchLib.Client" Version="3.3.1" />
+		<PackageReference Include="TwitchLib.EventSub.Webhooks" Version="2.3.0" />
+		<PackageReference Include="TwitchLib.PubSub" Version="3.2.6" />
+	</ItemGroup>
+	<ItemGroup>
+		<Folder Include="Menu\" />
+	</ItemGroup>
+</Project>
