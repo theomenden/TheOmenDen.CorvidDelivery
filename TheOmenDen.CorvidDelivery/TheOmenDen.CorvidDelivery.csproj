@@ -12,7 +12,7 @@
 		<PackageReference Include="Microsoft.Kiota.Serialization.Form" Version="1.12.0" />
 		<PackageReference Include="Microsoft.Kiota.Serialization.Json" Version="1.12.0" />
 		<PackageReference Include="Microsoft.Kiota.Serialization.Multipart" Version="1.12.0" />
-		<PackageReference Include="Microsoft.Kiota.Serialization.Text" Version="1.11.3" />
+		<PackageReference Include="Microsoft.Kiota.Serialization.Text" Version="1.12.0" />
 		<PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.1.1" GamePath="$(GamePath)" />
 		<PackageReference Include="Roslynator.Analyzers" Version="4.12.4">
 			<PrivateAssets>all</PrivateAssets>
