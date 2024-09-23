@@ -14,7 +14,7 @@
 		<PackageReference Include="Microsoft.Kiota.Serialization.Multipart" Version="1.12.4" />
 		<PackageReference Include="Microsoft.Kiota.Serialization.Text" Version="1.12.4" />
 		<PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.2.0" GamePath="$(GamePath)" />
-		<PackageReference Include="Roslynator.Analyzers" Version="4.12.5">
+		<PackageReference Include="Roslynator.Analyzers" Version="4.12.6">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
